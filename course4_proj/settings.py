@@ -66,6 +66,7 @@ class Dev(Configuration):
 
       'movies',
       'gh',
+      'django_celery_results',
   ]
 
   MIDDLEWARE = [
@@ -176,5 +177,8 @@ class Dev(Configuration):
   }
   
   OMDB_KEY = "4734d8b2"
+
+  CELERY_RESULT_BACKEND = "django-db"
+  CELERY_BROKER_URL = "redis://localhost:6379/0"
 
   
