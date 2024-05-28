@@ -184,3 +184,4 @@ class Dev(Configuration):
   #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
   #ADMINS = [("codio", "codio@abc.com")]
+  #
